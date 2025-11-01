@@ -92,4 +92,23 @@ progress {
 .btn-custom:hover {
   background-color: #929188;
   color: white;
+
+}
+progress {
+  width: 80%;
+  height: 15px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-value {
+  background-color: #acaba3; 
+}
+
+progress::-moz-progress-bar {
+  background-color: #acaba3; 
+
+progress::-ms-fill {
+  background-color: #acaba3;
 }
