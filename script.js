@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (phoneBtn && phoneCollapse) {
     phoneCollapse.addEventListener('show.bs.collapse', () => {
-      phoneBtn.textContent = 'Masquer mon numéro de Téléphone';
+      phoneBtn.textContent = 'Masquer le numéro de Téléphone';
     });
 
     phoneCollapse.addEventListener('hide.bs.collapse', () => {
-      phoneBtn.textContent = 'Afficher mon numéro de Téléphone';
+      phoneBtn.textContent = 'Afficher le numéro de Téléphone';
     });
   }
 
@@ -18,11 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (emailBtn && emailCollapse) {
     emailCollapse.addEventListener('show.bs.collapse', () => {
-      emailBtn.textContent = 'Masquer mon Email';
+      emailBtn.textContent = 'Masquer l\'Email';
     });
 
     emailCollapse.addEventListener('hide.bs.collapse', () => {
-      emailBtn.textContent = 'Afficher mon Email';
+      emailBtn.textContent = 'Afficher  l\'Email';
     });
   }
 });
+
